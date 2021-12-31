@@ -3379,6 +3379,10 @@ aside .header__list-item a {
     -o-transition: 0.3s;
     transition: 0.3s;
   }
+
+  .klubok {
+    top: -36%;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -3456,7 +3460,7 @@ aside .header__list-item a {
   .klubok {
     width: 343px;
     position: absolute;
-    top: -28%;
+    top: -36%;
     left: 22.5%;
   }
 
