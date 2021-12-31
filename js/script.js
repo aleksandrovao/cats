@@ -13921,7 +13921,7 @@ $(document).ready(function(){
         
        
     });
-    responsive[
+    responsive:[
     {
         breakpoint: 976,
             settings:{
