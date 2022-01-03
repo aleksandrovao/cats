@@ -13929,7 +13929,37 @@ $(document).ready(function(){
             }
     }   
 ]
-  });;
+  });
+
+//   TABS
+$('.btn').click(function(e){
+    e.preventDefault();
+    $('.kids__item').hide()
+    $($(this).attr('href')).show('.kids__item')
+})
+$(document).ready(function(){
+    $('.slick--for').slick({
+        slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slick'
+    })
+    $('.slick').slick({
+        mobileFirst:true,
+        adaptiveHeight: true,
+        vertical: true,
+        verticalSwiping:true,
+        arrows:true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        asNavFor: '.slick--for',
+    })
+})
+// $(document).ready(function(){
+   
+// })
+;
 
 // ("bootstrap.bundle.js");
 
